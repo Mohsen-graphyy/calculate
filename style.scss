@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: vazir;
+    background-color: rgb(28, 231, 221);
+    h2{
+        text-align: center;
+        margin: 30px auto;
+        padding: 0px 10px;
+    }
+}
+.col{
+    margin: 2px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+input[type=button]{
+    -webkit-transition : all 0.5s;
+}
+
+input[type=button]:hover{
+    background-color: rgb(37, 35, 59);
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.cls{
+    background-color:  #f44336;
+    color: #fff;
+}
+#con{
+    padding: 20px;
+    margin: 20px 0;
+}
